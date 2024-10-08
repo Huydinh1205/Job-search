@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore IT Job Market</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Module 1 Oral Test</h1>
+      <p>10/08/2024</p>
+      <div class="job-count">
+        <h2>Dinh Quoc Huy</h2>
+      </div>
+    </div>
+
+    <div class="search-filter">
+      <input type="text" placeholder="Search job..." />
+      <button>search</button>
+      <div class="search-section">
+        <div class="filters">
+          <select>
+            <option value="" disabled selected>Location</option>
+          </select>
+          <select>
+            <option value="" disabled selected>Job level</option>
+          </select>
+          <select>
+            <option value="" disabled selected>Fresher</option>
+          </select>
+          <select>
+            <option value="" disabled selected>Course</option>
+          </select>
+          <select>
+            <option value="" disabled selected>Full-stack Web</option>
+          </select>
+          <button>Reset</button>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+            <span class="label-text">Only view available</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="job-list">
+      <div class="job-item">
+        <h3>Fullstack Developer (NodeJS/ReactJS/Python)</h3>
+        <div class="tags">
+          <span>・AZPLAYS Co., LTD </span><span>・ Ho Chi Minh </span
+          ><span>・ Fresher</span> <span>・ 1700 - 2000 $</span>
+        </div>
+
+        <button>Apply now</button>
+      </div>
+      <div class="job-item">
+        <h3>Frontend Developer (ReactJS, TypeScript)</h3>
+        <div class="tags">
+          <span> ・ Ho Chi Minh </span><span>・ Fresher, Junior </span
+          ><span>・ 1000 - 3000 $</span>
+        </div>
+        <button>Apply now</button>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <button id="previous">Previous</button>
+        <button id="next">Next</button>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
