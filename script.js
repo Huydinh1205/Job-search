@@ -43,7 +43,7 @@ const renderJob = async () => {
     document.querySelector(".job-list").appendChild(jobItem);
   });
 };
-
+const user = 0;
 renderJob();
 const renderJobSearch = () => {
   page = 1;
