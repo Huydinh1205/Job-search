@@ -45,7 +45,6 @@ const renderJob = async () => {
 };
 
 renderJob();
-
 const renderJobSearch = () => {
   page = 1;
   renderJob();
